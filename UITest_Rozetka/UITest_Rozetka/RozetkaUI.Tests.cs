@@ -1,41 +1,64 @@
 ﻿using Atata;
 using NUnit.Framework;
+using UITest_Rozetka.RozetkaPageComponents;
+using UITest_Rozetka.RozetkaPageComponents.Pages;
 using UITest_Rozetka.RozetkaWebPageObjects;
 
 namespace RozetkaWebPageObjects
 {
-    [TestFixture]
-    public class UITestFixture
+     public class RozetkaTests : TestInitializing
     {
-        [SetUp]
-        public void SetUp()
-        {
-            AtataContext.Configure().
-                UseChrome().
-                WithArguments("start-maximized").
-                UseBaseUrl("https://rozetka.com.ua/").
-                UseCulture("en-us").
-                UseNUnitTestName().
-                AddNUnitTestContextLogging().
-                LogNUnitError().
-                Build();
-        }
+        public Page<Pages> Page { get; set; }
 
-        [TearDown]
-        public void TearDown()
-        {
-            AtataContext.Current?.CleanUp();
-        }
-    }
-
-    public class RozetkaTests : UITestFixture
-    {
         [Test]
-        public void OpenRozetkaMainPage()
+        public void CallPages_ToOpen_MainPage()
         {
-            Go.To<MainPage>().
-                search.Set("iphone").
-                submit.Click();
+            var expTitle = "Интернет-магазин ROZETKA™: официальный сайт самого популярного онлайн-гипермаркета в Украине";
+          
+            RozetkaStart().PageTitle.Should.Equal(expTitle);
+            //var actTitle = Pages.MainPage.Content;
+            //Assert.AreEqual(actTitle, expTitle);
+        }
+
+        [Test]
+        public void CallPages2()
+        {
+            var expTitle = "Интернет-магазин ROZETKA™: официальный сайт самого популярного онлайн-гипермаркета в Украине";
+            Pages.MainPage.GotoPage().Should.Equals(expTitle);
+        }
+
+        [Test]
+        public void RequestedItemFound_BySearch_AddedToBasket()
+        {
+            var itemName = "iphone se";
+            var headerText = "Apple iPhone SE";
+            var basketHeader = "Корзина";
+            RozetkaStart().
+                Search.Set(itemName).
+                Submit.Click().
+                Header.Should.Equal(headerText).
+                FirstRose.Click().
+                Header.Should.Contain(headerText).
+                ToBuy.ClickAndGo<ProductPage>().Wait(5).
+                Header.Should.Contain(headerText).
+                Basket.Click().Wait(5).
+                BasketHeader.Should.Contain(basketHeader).
+                ConfirmOrder.Exists();
+        }
+
+        [Test]
+        public void GetPhoneByColors_GetRose()
+        {
+            var itemName = "iPhone SE";
+            RozetkaStart().
+                SearchItem(itemName);
+            //Pages mainPage = new Pages();
+            //RozetkaMainPage mainPage = new RozetkaMainPage(AtataContext.Current);
+            //Pages.MainPage.GotoPage();
+            //mainPage.SearchItem2(itemName);
+            
+            //Pages.MainPage.SearchItem2(itemName);
+            //Pages.MainPage.SearchItem(itemName);
         }
     }
 }

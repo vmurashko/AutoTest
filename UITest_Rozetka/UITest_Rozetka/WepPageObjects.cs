@@ -9,11 +9,12 @@ namespace UITest_Rozetka.RozetkaWebPageObjects
         [FindByName]
         public TextInput<_mainPage> search { get; private set; }
 
-        [FindByName]
+        [FindByName("submit")]
         public Button<_mainPage> submit { get; private set; }
 
-        [PageObjectDefinition("span", ContainingClass = "filter-parametrs-i-l-i-text")]
+        [PageObjectDefinition("span", ComponentTypeName = "", TargetName = "iPhone SE", ContainingClass = "filter-parametrs-i-l-i-checkbox")]
 
+        public CheckBox<_mainPage> checkBox { get; private set; }
     }
 
 }
