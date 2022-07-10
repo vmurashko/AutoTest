@@ -13,6 +13,7 @@ namespace UITest_Rozetka.RozetkaPageComponents
     public class TestInitializing
     {
         [SetUp]
+        [Obsolete]
         public void SetUp()
         {
             AtataContext.Configure().

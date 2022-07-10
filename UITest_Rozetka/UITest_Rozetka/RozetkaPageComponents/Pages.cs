@@ -21,5 +21,8 @@ namespace UITest_Rozetka.RozetkaPageComponents.Pages
 
         public static ProductPage ProdPage
         { get { return GetPage<ProductPage>(); } }
+
+        public static CatalogPage CatalogPage
+        { get { return GetPage<CatalogPage>(); } }
     }
 }

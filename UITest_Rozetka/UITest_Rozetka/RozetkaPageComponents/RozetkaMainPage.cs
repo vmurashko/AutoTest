@@ -1,4 +1,5 @@
 ﻿using Atata;
+using UITest_Rozetka.RozetkaPageComponents.Pages;
 
 namespace UITest_Rozetka.RozetkaPageComponents
 {

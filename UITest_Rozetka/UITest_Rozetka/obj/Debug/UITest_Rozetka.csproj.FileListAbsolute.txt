@@ -16,3 +16,26 @@ D:\01.WorkDocuments\Automation\Rozetka_UITestTask\UITest_Rozetka\UITest_Rozetka\
 D:\01.WorkDocuments\Automation\Rozetka_UITestTask\UITest_Rozetka\UITest_Rozetka\bin\Debug\WebDriver.xml
 D:\01.WorkDocuments\Automation\Rozetka_UITestTask\UITest_Rozetka\UITest_Rozetka\obj\Debug\UITest_Rozetka.dll
 D:\01.WorkDocuments\Automation\Rozetka_UITestTask\UITest_Rozetka\UITest_Rozetka\obj\Debug\UITest_Rozetka.pdb
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\bin\Debug\NUnit3.TestAdapter.dll
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\bin\Debug\NUnit3.TestAdapter.pdb
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\bin\Debug\nunit.engine.dll
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\bin\Debug\nunit.engine.api.dll
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\bin\Debug\nunit.engine.core.dll
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\bin\Debug\testcentric.engine.metadata.dll
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\bin\Debug\UITest_Rozetka.dll
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\bin\Debug\UITest_Rozetka.pdb
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\bin\Debug\UITest_Rozetka.dll.CodeAnalysisLog.xml
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\bin\Debug\UITest_Rozetka.dll.lastcodeanalysissucceeded
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\bin\Debug\Atata.dll
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\bin\Debug\Atata.WebDriverExtras.dll
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\bin\Debug\nunit.framework.dll
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\bin\Debug\WebDriver.dll
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\bin\Debug\Atata.xml
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\bin\Debug\Atata.WebDriverExtras.xml
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\bin\Debug\nunit.framework.xml
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\obj\Debug\UITest_Rozetka.csproj.AssemblyReference.cache
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\obj\Debug\UITest_Rozetka.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\obj\Debug\UITest_Rozetka.csproj.CoreCompileInputs.cache
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\obj\Debug\UITest_Rozetka.csproj.CopyComplete
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\obj\Debug\UITest_Rozetka.dll
+D:\Kansys-Users\vmurashko\Hillel\Lesson 30. GIT\AutoTest\UITest_Rozetka\UITest_Rozetka\obj\Debug\UITest_Rozetka.pdb

@@ -14,9 +14,9 @@ namespace RozetkaWebPageObjects
         public void CallPages_ToOpen_MainPage()
         {
             var expTitle = "Интернет-магазин ROZETKA™: официальный сайт самого популярного онлайн-гипермаркета в Украине";
-          
+            var actTitle = Pages.MainPage.Content;
+            
             RozetkaStart().PageTitle.Should.Equal(expTitle);
-            //var actTitle = Pages.MainPage.Content;
             //Assert.AreEqual(actTitle, expTitle);
         }
 
@@ -28,6 +28,7 @@ namespace RozetkaWebPageObjects
         }
 
         [Test]
+        [System.Obsolete]
         public void RequestedItemFound_BySearch_AddedToBasket()
         {
             var itemName = "iphone se";
@@ -51,7 +52,7 @@ namespace RozetkaWebPageObjects
         {
             var itemName = "iPhone SE";
             RozetkaStart().
-                SearchItem(itemName);
+            SearchItem(itemName);
             //Pages mainPage = new Pages();
             //RozetkaMainPage mainPage = new RozetkaMainPage(AtataContext.Current);
             //Pages.MainPage.GotoPage();
